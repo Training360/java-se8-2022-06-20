@@ -2,7 +2,7 @@
 
 ## Gyakorlati feladat - Négyzet alakú terítő
 
-Készíts egy `cloth.Square` nevű interfészt, melyben négy default metódus is található:
+Készíts egy `cloth.cloth.Square` nevű interfészt, melyben négy default metódus is található:
 
 * `int getNumberOfSides()`: visszaadja egy négyzet oldalainak számát.
 * `double getPerimeter()`: az oldal hosszának ismeretében visszaadja a négyzet kerületét.
