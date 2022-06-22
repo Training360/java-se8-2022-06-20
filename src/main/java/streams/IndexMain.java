@@ -20,6 +20,7 @@ public class IndexMain {
 
         response
                 .body()
+                .parallel()
                 .flatMap(IndexMain::getLinks)
                 .filter(IndexMain::startsWithHttp)
                 .distinct()
