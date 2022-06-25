@@ -50,3 +50,16 @@ List<Employee> -> List<String>
 Hozz létre egy List<Employee> objektumot, és szűrd ki belőle a 100_000-nél 
 nagyobb fizetésű alkalmazottakat. Hozz létre egy új listát a feltételnek
 megfelelő alkalmazottakkal.
+
+## Gyakorlati feladat - Kávézó
+
+Készíts egy `Coffee` osztályt! Attribútuma: `price` - a kávé ára. 
+
+A `CoffeeOrder` osztály tárolja az egy vásárló által megrendelt és leszámlázott kávékat. 
+Attibútumai: `coffeeList` - a megrendelt kávék listája, `dateTime` - a vásárlás időpontja.
+
+A `Cafe` osztály tartalmazza a kávézó összes rendelését egy listában. A listát a konstruktorban kapja meg, 
+de legyen lehetőség új rendelést hozzáadni. Készítsd el benne az alábbi metódusokat streamek segítségével:
+
+* `long getTotalIncome(LocalDate date)`: adott napi teljes bevétel
+
